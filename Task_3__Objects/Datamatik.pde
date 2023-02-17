@@ -1,17 +1,15 @@
 class Datamatik{
 
+
 }
 
 
 void setup (){
   
-  Datamatik Teacher = new Datamatik (); // OBJEKT T
-  Teacher.name = Signe;
-  Teacher age = 45;
-  Teacher gender = female;
+  Datamatik Teacher = new Teacher ("Jörg", 45, "female");
   
-  Datamatik Student1 = new Datamatik ("Yuleisy", 40, "male");
-  Datamatik Student2 = new Datamatik ("Caroline", 22, "female");
+  Datamatik Student1 = new Student1 ("Yuleisy", 40, "male");
+  Datamatik Student2 = new Student2 ("Caroline", 22, "female", "F23");
   
   println (Teacher);
   println (Student1, Student2);
