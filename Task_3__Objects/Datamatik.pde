@@ -1,4 +1,9 @@
 class Datamatik{
+  String name;    //// public convention
+  private _age;   //// private convention
+  Datamatik (String name, int age);
+  this.name = name;   //// public convention
+  _age = age;   //// private convention
 
 
 }

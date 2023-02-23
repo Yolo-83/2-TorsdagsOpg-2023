@@ -1,9 +1,9 @@
 class Student {
   
   String name;
-  int age;
+  int age;   
   String isFemale;
-  String datamatikerTeam;
+  String datamatikerTeam;   //// Her kan man bruge en int, char, String eller kun som class
   
   
   Student (String tmpName, int tmpAge, String tmpIsFemale, String tmpDatamatikerTeam){

@@ -1,13 +1,20 @@
 void setup (){
   emptyLine ();
+  word ("Yolo");
   data ("Yuleisy", 40);
 }
 
-
+//1.b
 void emptyLine (){
-  println ();
+  println ("");
 }
 
+//1.c
+void word (String input){
+  println (input);
+}
+
+//1.d
 void data (String name, int age){
   println ("My name is " + name + ", I am " + age + " years old");
 }

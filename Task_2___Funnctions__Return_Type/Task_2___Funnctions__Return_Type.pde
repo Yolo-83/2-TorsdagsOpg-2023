@@ -10,9 +10,14 @@ boolean happy = false;
      println("I don't clap my hands"); 
    }
    
-   sum (5,12);
+   println (sum (5,12));
+   //  sum (5,12);
    
-   word (w);
+   println (upperCase ("What's up baby?"));
+   //  upperCase ("What's up baby?");
+   
+   println (firstLetterUp ("Hello"));
+   //  firstLetterUp ("Hello");
 
 }
 
@@ -23,18 +28,39 @@ boolean iAmHappy(){
   }else{
     return false;
   }
+  /* if (happy){    // den korte version af "boolean happy"
+       return happy;
+     } */ 
 }
 
 
-void sum (int a, int b){
-  println (a + b); 
+int sum (int a, int b){
+  int total = a + b;
+  return total; 
+}
+/* void sum (int a, int b){
+      println (a + b); 
+   } */
+
+
+String upperCase (String input){
+  input = input.toUpperCase();
+  return input;
 }
 
 
-String word.toUppeCase(String w){
-  return (w);
+boolean firstLetterUp (String input){
+  char firstLetter = input.charAt(0);
+  boolean isUpper = false;
+  if (Character.isUpperCase(firstLetter)){
+    isUpper = true;
+    return isUpper;
+  } else {
+    isUpper = false;
+    return isUpper;
+  }
+  
 }
-
 
 
 /*
